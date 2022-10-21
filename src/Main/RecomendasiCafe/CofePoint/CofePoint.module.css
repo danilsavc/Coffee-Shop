@@ -1,0 +1,72 @@
+.item {
+    display: grid;
+    grid-template-columns: 183px 143px;
+    grid-template-rows: 200px 50px 20px;
+
+    grid-template-areas: 
+    "item-img item-img"
+    "item-title item-btn"
+    "item-subtitle item-subtitle";
+}
+
+.img {
+    border-radius: 10px;
+
+    grid-area: item-img;
+    justify-self: center;
+    align-self: flex-end;
+}
+
+h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 33px;
+    color: #3A3939;
+
+    grid-area: item-title;
+    justify-self: center;
+    align-self: center;
+}
+
+p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    color: #3A3939;
+
+    grid-area: item-subtitle;
+    justify-self: start;
+    align-self: center;
+    margin-left: 20px;
+}
+
+.main_button {
+    width: 100px;
+    height: 30px;
+
+    background: #A0583C;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    grid-area: item-btn;
+    justify-self: center;
+    align-self: center;
+}
+
+a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}

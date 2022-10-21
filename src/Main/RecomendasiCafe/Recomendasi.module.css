@@ -1,0 +1,90 @@
+.main {
+    user-select: none;
+}
+
+.searchBar {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    grid-template-rows: 3fr 1fr;
+    grid-template-areas: 
+    "head-hr1 head-title head-hr2"
+    ". head-search head";
+}
+
+.hr1 {
+    width: 450px;
+    height: 5px;
+    background-color: #A0583C;
+
+    grid-area: head-hr1;
+    align-self: center;
+    justify-self: center;
+}
+
+.hr2 {
+    width: 450px;
+    height: 5px;
+    background-color: #A0583C;
+
+    grid-area: head-hr2;
+    align-self: center;
+    justify-self: center;
+}
+
+.title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #C08267;
+
+    grid-area: head-title;
+    align-self: center;
+    justify-self: center;
+}
+
+.search {
+    grid-area: head-search;
+    display: flex;
+}
+
+.img {
+    margin-left: -25px;
+    margin-top: 8px;
+}
+
+.input {
+    width: 360px;
+    height: 37px;
+
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 16px;
+    color: #6C6C6C;
+    padding-left: 15px;
+}
+
+.items {
+    display: grid;
+    grid-template-columns: repeat(4, 320px);
+    grid-template-areas: "item1 item2 item3 item4";
+}
+
+.item1 {
+    grid-area: item1;
+}
+
+.item2 {
+    grid-area: item2;
+}
+
+.item3 {
+    grid-area: item3;
+}
+
+.item4 {
+    grid-area: item4;
+}

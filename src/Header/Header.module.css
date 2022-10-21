@@ -1,0 +1,125 @@
+.header {
+    display: grid;
+    grid-template-columns: 2fr 5fr 2fr;
+    grid-template-rows: 1fr 10fr;
+    grid-template-areas: 
+        "header-logo header-nav header-reg"
+        ". header-text .";
+
+
+    min-height: 720px;
+    background-image: url('./../../public/img/bcg_header.svg');
+
+    user-select: none;
+}
+
+.header_a {
+    justify-self: center;
+    align-self: center;
+}
+
+.header_nav {
+    grid-area: header-nav;
+    align-self: center;
+    justify-self: center;
+}
+
+.header_nav_link {
+    margin-right: 46px;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #EFEFF5;
+}
+
+.header_reg {
+    grid-area: header-reg;
+    align-self: center;
+    justify-self: center;
+
+    width: 115px;
+    height: 37px;
+    background: #A0583C;
+    border-radius: 8px;
+}
+
+.header_reg_button {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    color: #EFEFF5;
+    
+    margin-top: 9px;
+    text-align: center;
+}
+
+.header_text {
+    grid-area: header-text;
+    align-self: center;
+    justify-self: center;
+
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-rows: 140px 50px 150px;
+
+    grid-template-areas: 
+    "header-title header-title header-title"
+    ". header-subtitle ."
+    ". header-btn .";
+}
+
+.header_title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 84px;
+
+    color: #F8F8F8;
+
+    justify-self: center;
+    grid-area: header-title;
+}
+
+.header_subtitle {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #CCB9B1;
+
+    grid-area: header-subtitle;
+    align-self: center;
+}
+
+.header_button {
+    width: 250px;
+    height: 55px;
+
+    background: linear-gradient(90deg, #A0583C 0%, #C08267 100%);
+    border-radius: 18px;
+
+    grid-area: header-btn;
+    align-self: center;
+    justify-self: center;
+}
+
+.button {
+    display: flex;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #EFEFF5;
+
+    margin-top: 15px;
+    justify-content: center;
+}
