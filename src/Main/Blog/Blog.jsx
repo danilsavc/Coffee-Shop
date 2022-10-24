@@ -2,14 +2,13 @@ import React from "react";
 import style from "./Blog.module.css"
 import BlogItem from "./BlogItem/BlogItem";
 import BlogWidth from "./BlogWidth/BlogWidth";
+import Title from "./Title/Title";
 
 const Blog = () => {
     return (
-        <main>
-            <aside className={style.blog_span}>
-                <div className={style.hr1}></div>
-                <span className={style.title}>Blog</span>
-                <div className={style.hr2}></div>
+        <main className={style.blog}>
+            <aside className={style.title}>
+                <Title title="Blog"/>
             </aside>
 
             <div className={style.blogs}>

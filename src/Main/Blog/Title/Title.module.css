@@ -1,0 +1,38 @@
+.title {
+    display: grid;
+    grid-template-areas: "hr1 span hr2";
+    gap: 22px;
+}
+
+.hr1 {
+    width: 450px;
+    height: 5px;
+    background-color: #A0583C;
+
+    grid-area: hr1;
+    align-self: center;
+    justify-self: start;
+}
+
+.hr2 {
+    width: 450px;
+    height: 5px;
+    background-color: #A0583C;
+
+    grid-area: hr2;
+    align-self: center;
+    justify-self: end;
+}
+
+.span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #C08267;
+
+    grid-area: span;
+    align-self: center;
+    justify-self: center;
+}

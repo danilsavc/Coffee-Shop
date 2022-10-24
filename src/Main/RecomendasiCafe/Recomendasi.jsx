@@ -1,4 +1,5 @@
 import React from "react";
+import Title from "../Blog/Title/Title";
 import CofePoint from "./CofePoint/CofePoint";
 import style from "./Recomendasi.module.css"
 
@@ -6,15 +7,14 @@ const Recomendasi = () => {
     return (
         <main className={style.main}>
             <aside className={style.searchBar}>
-                <div className={style.hr1}></div>
-                <span className={style.title}>Recomendasi Cafe</span>
-                <div className={style.hr2}></div>
+                <div className={style.title}>
+                    <Title title="Recomendasi"/>
+                </div>
                 <div className={style.search}>
                     <input className={style.input} type="search" placeholder="Search"/>
                     <img src="img/search.png" alt="" className={style.img} width="19px" height="19px"/>
                 </div>
             </aside>
-            
             
             <div className={style.items}>
                 <div className={style.item1}><CofePoint img="img/point1.png" title="Plumeria Cafe" subtitle="Jl. Cikuda No.37  Jatinangor"/></div>
