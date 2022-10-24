@@ -1,4 +1,5 @@
-.header {
+.main {
+    position: relative;
     display: grid;
     grid-template-columns: 2fr 5fr 2fr;
     grid-template-rows: 1fr 10fr;
@@ -8,9 +9,11 @@
 
 
     min-height: 720px;
-    background-image: url('./../../public/img/bcg_header.svg');
-
     user-select: none;
+}
+
+.img {
+    position: absolute;
 }
 
 .header_a {
