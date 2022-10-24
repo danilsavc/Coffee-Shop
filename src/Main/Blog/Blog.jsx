@@ -2,7 +2,7 @@ import React from "react";
 import style from "./Blog.module.css"
 import BlogItem from "./BlogItem/BlogItem";
 import BlogWidth from "./BlogWidth/BlogWidth";
-import Title from "./Title/Title";
+import Title from "../Title/Title";
 
 const Blog = () => {
     return (

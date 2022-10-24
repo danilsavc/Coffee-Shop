@@ -15,7 +15,7 @@
 
 .blogs {
     display: grid;
-    grid-template-rows: 0.85fr 1fr;
+    grid-template-rows: 0.85fr 1.4fr;
     grid-template-areas: 
     "blog-width blog-width blog-width blog-width blog-width"
     ". item1 item2 item3 .";
@@ -46,6 +46,7 @@
     border-radius: 5px;
 
     grid-area: item1;
+    align-self: end;
 }
 
 .item2 {
@@ -56,6 +57,7 @@
     border-radius: 5px;
 
     grid-area: item2;
+    align-self: end;
 }
 
 .item3 {
@@ -66,6 +68,7 @@
     border-radius: 5px;
 
     grid-area: item3;
+    align-self: end;
 }
 
 .blogs {

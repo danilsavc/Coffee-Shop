@@ -1,0 +1,157 @@
+.footer_bar {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.title {
+    display: grid;
+    grid-template-columns: 10px 2fr 0.8fr 2fr 10px;
+    grid-template-areas: ". hr1 spans hr2 .";
+}
+
+.hr1 {
+    width: 450px;
+    height: 5px;
+    background-color: #F8F8F8;
+
+    grid-area: hr1;
+    align-self: center;
+    justify-self: start;
+}
+
+.hr2 {
+    width: 450px;
+    height: 5px;
+    background-color: #F8F8F8;
+
+    grid-area: hr2;
+    align-self: center;
+    justify-self: end;
+}
+
+.hr3 {
+    width: 1280px;
+    height: 3px;
+    background-color: #F8F8F8;
+}
+
+.span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #F8F8F8;
+
+    grid-area: spans;
+    align-self: center;
+    justify-self: center;
+}
+
+.title_nav, .title_about, .title_follow, .title_blog {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.item1_1, .item1_2, .item1_3, .item2_1, .item2_2, .item2_3, .item3_1, .item3_2, .item3_3, .item3_4 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.navigation {
+    display: grid;
+    grid-template-columns: 60px repeat(4, 1fr) 10px;
+    grid-template-rows: repeat(7, 40px);
+    grid-template-areas: 
+    ". . . . . ."
+    ". nav blog about follow ."
+    ". item1_1 item2_1 item3_1 messengers ."
+    ". item1_2 item2_2 item3_2 . ."
+    ". item1_3 item2_3 item3_3 . ."
+    ". . item3_4 . . ."
+    ". . . . . .";
+}
+
+.title_nav {
+    grid-area: nav;
+}
+
+.title_about {
+    grid-area: about;
+}
+
+.title_follow {
+    grid-area: follow;
+}
+
+.title_blog {
+    grid-area: blog;
+}
+
+.item1_1 {
+    grid-area: item1_1;
+}
+
+.item1_2 {
+    grid-area: item1_2;
+}
+
+.item1_3 {
+    grid-area: item1_3;
+}
+
+.item2_1 {
+    grid-area: item2_1;
+}
+
+.item2_2 {
+    grid-area: item2_2;
+}
+
+.item2_3 {
+    grid-area: item2_3;
+}
+
+.item3_1 {
+    grid-area: item3_1;
+}
+
+.item3_2 {
+    grid-area: item3_2;
+}
+
+.item3_3 {
+    grid-area: item3_3;
+}
+
+.item3_4 {
+    grid-area: item3_4;
+}
+
+.messengers {
+    grid-area: messengers;
+}
+
+.right {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px;
+
+    justify-self: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 32px;
+    color: #FFFFFF;
+    align-items: center;
+    justify-items: center;
+}

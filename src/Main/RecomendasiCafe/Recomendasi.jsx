@@ -1,5 +1,5 @@
 import React from "react";
-import Title from "../Blog/Title/Title";
+import Title from "../Title/Title";
 import CofePoint from "./CofePoint/CofePoint";
 import style from "./Recomendasi.module.css"
 

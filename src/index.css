@@ -8,10 +8,15 @@ a {
   text-decoration: none;
 }
 
-body {
+.body {
   margin: 0 auto;
   width: 1280px;
 
   background-color: #f8f8f8;
+}
+
+footer {
+  width: 100%;
+  background-color: #A0583C;
 }
 
