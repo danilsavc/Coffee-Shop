@@ -1,10 +1,10 @@
 import React from "react";
 import style from "./BlogItem.module.css"
 
-const BlogItem = () => {
+const BlogItem = (props) => {
     return (
         <div className={style.item}>
-            <img src="img/blog2.png" alt="" className={style.item_img}/>
+            <img src={props.img} alt="" className={style.item_img}/>
             <h1 className={style.title}>long established</h1>
             <span className={style.subtitle}>It is a long established fact that <br />
                 a reader will be distracted by <br />

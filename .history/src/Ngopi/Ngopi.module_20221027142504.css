@@ -1,0 +1,47 @@
+.explore {
+    display: grid;
+}
+
+.title {
+    grid-area: title;
+}
+
+.subtitle {
+    grid-area: subtitle;
+}
+
+.title_brand {
+    grid-area: title_brand;
+}
+
+.subtitle_brand {
+    grid-area: subtitle_brand;
+}
+
+.img_item1 {
+    grid-area: img_item1;
+}
+
+.img_item2 {
+    grid-area: img_item2;
+}
+
+.img_item3 {
+    grid-area: img_item3;
+}
+
+.img_item4 {
+    grid-area: img_item4;
+}
+
+.img_item5 {
+    grid-area: img_item5;
+}
+
+.img_item6 {
+    grid-area: img_item6;
+}
+
+.map {
+    grid-area: map;
+}

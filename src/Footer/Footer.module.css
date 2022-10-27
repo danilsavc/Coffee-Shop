@@ -82,18 +82,22 @@
 
 .title_nav {
     grid-area: nav;
+    align-self: center;
 }
 
 .title_about {
     grid-area: about;
+    align-self: center;
 }
 
 .title_follow {
     grid-area: follow;
+    align-self: center;
 }
 
 .title_blog {
     grid-area: blog;
+    align-self: center;
 }
 
 .item1_1 {

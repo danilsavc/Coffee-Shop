@@ -10,13 +10,15 @@
 }
 
 .img {
-    border-radius: 10px;
-
     grid-area: item-img;
     align-self: flex-end;
 }
 
-h1 {
+.img_content {
+    border-radius: 10px;
+}
+
+.h1 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
@@ -28,7 +30,7 @@ h1 {
     align-self: center;
 }
 
-p {
+.p {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 300;
@@ -58,7 +60,7 @@ p {
     align-self: center;
 }
 
-a {
+.button {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;

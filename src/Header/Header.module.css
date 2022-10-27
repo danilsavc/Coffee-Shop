@@ -2,13 +2,14 @@
     position: relative;
     display: grid;
     grid-template-columns: 2fr 5fr 2fr;
-    grid-template-rows: 1fr 10fr;
+    grid-template-rows: 2fr 9fr;
     grid-template-areas: 
         "header-logo header-nav header-reg"
         ". header-text .";
 
+    background-image: url('../img/bcg_header_explore.png');
 
-    min-height: 720px;
+    min-height: 400px;
     user-select: none;
 }
 

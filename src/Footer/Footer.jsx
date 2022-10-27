@@ -1,5 +1,8 @@
 import React from "react";
 import style from "./Footer.module.css"
+import insta from "../img/insta.png"
+import facebook from "../img/facebook.png"
+import twitter from "../img/twitter.png"
 
 const Footer = () => {
     return (
@@ -27,9 +30,9 @@ const Footer = () => {
                     <a href="/#" className={style.item3_4}>Achievements </a>
                     <h1 className={style.title_follow}>Follow Us</h1>
                     <div className={style.messengers}>
-                        <a href="/#"><img src="img/insta.png" alt="" /></a>
-                        <a href="/#"><img src="img/facebook.png" alt="" /></a>
-                        <a href="/#"><img src="img/twitter.png" alt="" /></a>
+                        <a href="/#"><img src={insta} alt="" /></a>
+                        <a href="/#"><img src={facebook} alt="" /></a>
+                        <a href="/#"><img src={twitter} alt="" /></a>
                     </div>
                 </nav>
 
