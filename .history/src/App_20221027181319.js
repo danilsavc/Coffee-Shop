@@ -1,10 +1,9 @@
 import React from 'react';
 import Footer from './Footer/Footer';
+import Header from './Header/Header';
 import Main from './Main/Main';
 import {Route, Routes} from 'react-router-dom'
 import Ngopi from './Ngopi/Ngopi';
-import Home from './Layout/Home';
-import ExploreNgopi from './Layout/ExploreNgopi';
 
 
 
@@ -14,15 +13,17 @@ const App = () => {
         <div className="body">
           
         <Routes>
-          <Route path='/' element={<Home/>}>
-            <Route index element={<Main />}/>
-          </Route>
+          <Route path='/'>
 
-          <Route path='Ngopi-Bung' element={<ExploreNgopi/>}>
-              <Route index element={<Ngopi/>} />
           </Route>
-
         </Routes>
+
+
+          <Routes>
+            <Route path='/' element={<Header title="Power up with coffee"  subtitle="Nikmati hari - hari anda dengan secangkir kopi." img="img/bcg_header.png"/>} />
+            <Route path='/' element={<Main />} />
+            <Route path='/Ngopi-Bung' element={<Ngopi />} />
+          </Routes>
         </div>
 
           <Footer />
