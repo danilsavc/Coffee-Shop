@@ -1,0 +1,102 @@
+.bill {
+    display: grid;
+    grid-template-columns: 100px 300px 120px;
+    grid-template-rows: repeat(6, 60px);
+    grid-template-areas:
+    ". title img"
+    ". subtotal subtotalPrice"
+    ". shipping shippingPrice"
+    ". total totalPrice"
+    ". takeaway dinin"
+    ". proceed proceed";
+}
+
+.title {
+    grid-area: title;
+    align-self: center;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    color: #3A3939;
+}
+
+.subtotal, .subtotalPrice, .shipping, .shippingPrice, .total, .takeaway, .dinin, .proceed, .totalPrice{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 19px;
+    line-height: 45px;
+    color: #000000;
+}
+
+.img {
+    grid-area: img;
+    justify-self: center;
+    align-self: center;
+}
+
+.subtotal {
+    grid-area: subtotal;
+}
+
+.subtotalPrice {
+    grid-area: subtotalPrice;
+    justify-self: center;
+}
+
+.shipping {
+    grid-area: shipping;
+}
+
+.shippingPrice {
+    grid-area: shippingPrice;
+    justify-self: center;
+}
+
+.total {
+    grid-area: total;
+}
+
+.totalPrice {
+    grid-area: totalPrice;
+    justify-self: center;
+}
+
+.takeaway {
+    grid-area: takeaway;
+    justify-self: end;
+
+    width: 110px;
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    background-color: #A0583C;
+}
+
+.dinin {
+    grid-area: dinin;
+    justify-self: end;
+
+    width: 110px;
+    height: 50px;
+    border-radius: 10px;
+    color: #000000;
+    text-align: center;
+    background-color: rgb(198, 198, 198);
+}
+
+.proceed {
+    grid-area: proceed;
+    justify-self: center;
+
+    width: 250px;
+    height: 50px;
+    border-radius: 30px;
+    color: white;
+    text-align: center;
+    background-color: #A0583C;
+}

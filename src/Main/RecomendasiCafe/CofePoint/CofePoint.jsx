@@ -12,7 +12,7 @@ const CofePoint = (props) => {
             
             <h1 className={style.h1}>{props.title}</h1>
             <div className={style.main_button}>
-                <a href="/#" className={style.button}>Order Now</a>
+                <NavLink to={props.to} className={style.button}>Order Now</NavLink>
             </div>
             <p className={style.p}>{props.subtitle}</p>
         </div>

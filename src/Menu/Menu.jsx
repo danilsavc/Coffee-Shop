@@ -1,4 +1,6 @@
 import React from 'react';
+import Brands from '../Main/Brands/Brands';
+import Bill from './Bill/Bill';
 import style from './Menu.module.css';
 import MenuItem from './MenuItem/MenuItem';
 
@@ -33,7 +35,12 @@ const Menu = () => {
             </aside>
             <aside className={style.menu}>
                 {CofeMenuItems}
+                <aside className={style.bill}>
+                    <Bill/>
+                </aside>
             </aside>
+            
+            <Brands/>
         </main>
     );
 }

@@ -10,12 +10,12 @@ import search from "./../../img/search.png"
 
 let cofepoint = [
     {id: 1, link: '/PLumeria-Cafe', img: point1, title: 'Plumeria Cafe', subtitle: 'Jl. Cikuda No.37  Jatinangor'},
-    {id: 2, link: '/Ngopi-Bung', img: point2, title: 'Ngopi Bung', subtitle: 'Jl. Prabu Geusan Ulun No.97, Regol Wetan'},
+    {id: 2, link: '/Ngopi-Bung', img: point2, title: 'Ngopi Bung', subtitle: 'Jl. Prabu Geusan Ulun No.97, Regol Wetan', to: "Ngopi-Bung/Menu"},
     {id: 3, link: '/Nyusu-Doloe', img: point3, title: 'Nyusu Doloe', subtitle: 'Jl. Pangeran Santri No.82, Kotakulon'},
     {id: 4, link: '/Banyu-Biru', img: point4, title: 'Banyu Biru', subtitle: 'Jl. Cikeruh, Kec. Jatinangor'},
 ]
 
-let CofePointItems = cofepoint.map(item => <CofePoint link={item.link} img={item.img} title={item.title} subtitle={item.subtitle}/>)
+let CofePointItems = cofepoint.map(item => <CofePoint link={item.link} img={item.img} title={item.title} subtitle={item.subtitle} to={item.to}/>)
 
 const Recomendasi = () => {
 

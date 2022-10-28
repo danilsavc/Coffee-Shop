@@ -43,7 +43,7 @@
     "item4 item9"
     "item5 item10"
     ". ."
-    "item11 ."
+    "item11 bill"
     "item12 ."
     "item13 ."
     "item14 ."
@@ -113,4 +113,8 @@
 
 .item16 {
     grid-area: item16;
+}
+
+.bill {
+    grid-area: bill;
 }
