@@ -1,0 +1,32 @@
+.header {
+    display: grid;
+    grid-template-columns: 20px 1fr;
+    grid-template-rows: 100px 100px;
+    grid-template-areas: 
+    ". title"
+    ". subtitle";
+}
+
+.title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    color: #3A3939;
+
+    grid-area: title;
+    align-self: center;
+}
+
+.subtitle {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    color: #000000;
+
+    grid-area: subtitle;
+    align-self: center;
+}

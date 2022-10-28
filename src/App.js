@@ -5,6 +5,7 @@ import {Route, Routes} from 'react-router-dom'
 import Ngopi from './Ngopi/Ngopi';
 import Home from './Layout/Home';
 import ExploreNgopi from './Layout/ExploreNgopi';
+import NgopiMenu from './Ngopi/NgopiMenu/NgopiMenu';
 
 
 
@@ -20,6 +21,7 @@ const App = () => {
 
           <Route path='Ngopi-Bung' element={<ExploreNgopi/>}>
               <Route index element={<Ngopi/>} />
+              <Route path='Menu' element={<NgopiMenu/>}/>
           </Route>
 
         </Routes>

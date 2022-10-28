@@ -4,7 +4,7 @@ import React from 'react';
 
 const Map = () => {
     const {isLoaded} = useLoadScript({
-        googleMapsApiKey: process.env.NEXT_PUBLIC_COOGLE_MAPS_API_KEY,
+        googleMapsApiKey: 'AIzaSyAdTg5OpSg1UxCbsr_b1Hbhny4w8BM6OQ0',
     });
 
     const center = {lat: 47.8457944565378,  lng: 35.12551625143726}

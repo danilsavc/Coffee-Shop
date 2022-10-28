@@ -8,6 +8,7 @@ import ngopi3 from '../img/Cafe/ngopi3.png'
 import ngopi4 from '../img/Cafe/ngopi4.png'
 import ngopi5 from '../img/Cafe/ngopi5.png'
 import ngopi_brand from '../img/Cafe/ngopi_brand.png'
+import { NavLink } from 'react-router-dom';
 
 
 const Ngopi = () => {
@@ -37,7 +38,7 @@ const Ngopi = () => {
             <div className={style.map}><Map /></div>
             
             <div className={style.button}>
-                <a href="/#" className={style.text}>Pesan Sekarang</a>
+                <NavLink to="/Ngopi-Bung/Menu" className={style.text}>Pesan Sekarang</NavLink>
             </div>
         </main>
         
