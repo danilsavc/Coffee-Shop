@@ -17,7 +17,7 @@ let cofepoint = [
 
 let CofePointItems = cofepoint.map(item => <CofePoint link={item.link} img={item.img} title={item.title} subtitle={item.subtitle} to={item.to}/>)
 
-const Recomendasi = () => {
+const Recomendasi = (props) => {
 
     return (
         <main className={style.main}>

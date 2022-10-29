@@ -7,15 +7,13 @@ import Home from './Layout/Home';
 import ExploreNgopi from './Layout/ExploreNgopi';
 import NgopiMenu from './Ngopi/NgopiMenu/NgopiMenu';
 
-
-
 const App = () => {
     return (
       <div className="App">
         <div className="body">
-          
         <Routes>
           <Route path='/' element={<Home/>}>
+            
             <Route index element={<Main />}/>
           </Route>
 

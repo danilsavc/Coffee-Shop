@@ -1,6 +1,6 @@
 .menu {
     display: grid;
-    grid-template-columns: 50px 40px 400px 40px 40px 40px 30px;
+    grid-template-columns: 40px 40px 400px 40px 40px 40px 40px;
     grid-template-rows: 50px;
     grid-template-areas: 
     ". point name price minus plus count";

@@ -49,6 +49,8 @@
     "item14 ."
     "item15 ."
     "item16 .";
+
+    user-select: none;
 }
 
 .item1 {
